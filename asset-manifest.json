@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/SignUp-for-with-Validation/static/css/main.824336ac.chunk.css",
+    "main.js": "/SignUp-for-with-Validation/static/js/main.40e28e83.chunk.js",
+    "main.js.map": "/SignUp-for-with-Validation/static/js/main.40e28e83.chunk.js.map",
+    "runtime-main.js": "/SignUp-for-with-Validation/static/js/runtime-main.94bea1cd.js",
+    "runtime-main.js.map": "/SignUp-for-with-Validation/static/js/runtime-main.94bea1cd.js.map",
+    "static/js/2.758805db.chunk.js": "/SignUp-for-with-Validation/static/js/2.758805db.chunk.js",
+    "static/js/2.758805db.chunk.js.map": "/SignUp-for-with-Validation/static/js/2.758805db.chunk.js.map",
+    "index.html": "/SignUp-for-with-Validation/index.html",
+    "precache-manifest.f25a0e6465c11936c435ad2f2f877ad9.js": "/SignUp-for-with-Validation/precache-manifest.f25a0e6465c11936c435ad2f2f877ad9.js",
+    "service-worker.js": "/SignUp-for-with-Validation/service-worker.js",
+    "static/css/main.824336ac.chunk.css.map": "/SignUp-for-with-Validation/static/css/main.824336ac.chunk.css.map",
+    "static/js/2.758805db.chunk.js.LICENSE.txt": "/SignUp-for-with-Validation/static/js/2.758805db.chunk.js.LICENSE.txt",
+    "static/media/SignUp_Image.svg": "/SignUp-for-with-Validation/static/media/SignUp_Image.a8046b76.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.94bea1cd.js",
+    "static/js/2.758805db.chunk.js",
+    "static/css/main.824336ac.chunk.css",
+    "static/js/main.40e28e83.chunk.js"
+  ]
+}
