@@ -1,38 +1,90 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main_signup {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.signUp {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  width: 70%;
+  color: #3f3d56;
+
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signUp h1 {
+  position: absolute;
+  top: 10%;
+  left: 47%;
+}
+
+.signUp img {
+  width: 50%;  
+}
+
+.signUp_content {
+  margin-left: 20px;
+  width: 70%;
+}
+
+.UserName {
+  margin-left: 20px;
+}
+
+
+
+.UserName input[type="text"], .Password input[type="password"], .UserName input[type="email"]{
+  padding: 9px;
+  border-radius: 24px;
+  outline: none;
+  border: 1px solid #3f3d56;
+  transition: 0.2s;
+}
+
+.UserName input[type="text"]:focus, .Password input[type="password"]:focus, .UserName input[type="email"]:focus {
+  border: 1px solid #00F58F;
+
+}
+
+.error {
+  border: 1px solid red !important;
+}
+
+.Password {
+  margin: 20px;
+}
+
+.labels{
+  font-size: 100%;
+  margin-left: 1%;
+  font-weight: 600;
+}
+
+.disclaimer {
+  font-size:12px;
+  margin-left:1%;
+  line-height:10px;
+}
+
+.buttondiv {
+  margin-left: 10%;
+}
+
+.button {
+  padding: 6px;
+  margin-left: 6%;
+  border-radius: 10px;
+  outline: none;
+  border: 1px solid #00F58F;
+  background-color: #00F58F;
+  color: #3f3d56;
+  font-size: small;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+@media all and (max-width:600px){
+  
 }

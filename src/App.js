@@ -1,26 +1,45 @@
-import React from 'react';
-import logo from './logo.svg';
+import React,{ useState } from 'react';
+import SignUp from "./components/SignUp"
+import Login from "./components/Login"
 import './App.css';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+  let [state,setState] = useState({
+    signedUp: false,
+    loggedIn: false,
+  })
+  let [userData,setUserData] = useState({
+    userName: "",
+    password: ""
+  })
+
+  let handleClickSignUp = () => {
+    if(!userData.username===null && userData.password === ""){
+      setState(prevValue => {
+        return {
+          ...prevValue,
+          signedUp: true
+        }
+      })
+    }
+  }
+
+  if(!state.signedUp){
+    return(
+      <>
+        <SignUp />
+      </>
+    )
+  } else {
+    return(
+      <>
+        (<h1>Login</h1>
+        <Login />)
+      </>
+    )
+  }
+  
+  
 }
 
 export default App;
